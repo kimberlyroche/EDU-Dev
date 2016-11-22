@@ -24,8 +24,8 @@ def baseline_model():
 
 binary = False
 
-# seed = 7
-# np.random.seed(seed)
+seed = 7
+np.random.seed(seed)
 
 if(binary):
 	# BINARY CLASSIFIER
@@ -59,8 +59,8 @@ else:
 	encoder.fit(Y)
 	encoded_Y = encoder.transform(Y)
 	dummy_y = np_utils.to_categorical(encoded_Y)
-	# X_train, X_test, Y_train, Y_test = train_test_split(X, dummy_y, test_size=0.2, random_state=seed)
-	X_train, X_test, Y_train, Y_test = train_test_split(X, dummy_y, test_size=0.2)
+	X_train, X_test, Y_train, Y_test = train_test_split(X, dummy_y, test_size=0.2, random_state=seed)
+	# X_train, X_test, Y_train, Y_test = train_test_split(X, dummy_y, test_size=0.2)
 
 	estimator = KerasClassifier(build_fn=baseline_model, nb_epoch=200, batch_size=5, verbose=0)
 
@@ -78,7 +78,12 @@ else:
 
 
 
-# NEXT: WHAT ABOUT ENCODING MULTIPLE OUTPUT VARIABLES AS INDIV. CLASSES?
-	# http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html
+# NEXT:
+#	1. Can we forego the KerasClassifier class and try a by-hand (as binary above) still getting good scoring? (use iris.csv)
+# 	2. Binning no. STEM courses output variable by 0.2 percentiles
+#	3. Merge transform_data.py with this file
+#	4. Encoding multiple output variables as individual classes:
+# 		http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html
+
 
 
