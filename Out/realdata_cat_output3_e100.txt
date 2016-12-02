@@ -1,0 +1,83 @@
+Acc (reported by cat. cross entropy): 0.8180
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.85  0.15  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.77  0.23  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.90  0.10  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.79  0.21  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.87  0.13  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.75  0.25  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.91  0.09  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.88  0.12  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.89  0.11  
+
+   actual:    0     1  
+predicted:    1     0  
+predicted: 0.90  0.10  
+
+   actual:    0     1  
+predicted:    1     0  
+predicted: 0.80  0.20  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.92  0.08  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.80  0.20  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.93  0.07  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.91  0.09  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.93  0.07  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.84  0.16  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.76  0.24  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.88  0.12  
+
+   actual:    1     0  
+predicted:    1     0  
+predicted: 0.75  0.25  
+
+Acc (% indices matched): 0.9000

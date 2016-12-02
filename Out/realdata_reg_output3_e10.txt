@@ -1,0 +1,63 @@
+Acc (MSE): 0.8415
+
+   actual: 0.0000
+predicted: 0.0404
+
+   actual: 0.0000
+predicted: 0.0404
+
+   actual: 0.0000
+predicted: 0.0404
+
+   actual: 0.0000
+predicted: 0.0405
+
+   actual: 0.0000
+predicted: 0.0405
+
+   actual: 0.0000
+predicted: 0.0404
+
+   actual: 0.0000
+predicted: 0.0404
+
+   actual: 0.0000
+predicted: 0.0405
+
+   actual: 0.0000
+predicted: 0.0405
+
+   actual: 0.0000
+predicted: 0.0405
+
+   actual: 0.0000
+predicted: 0.0406
+
+   actual: 0.0000
+predicted: 0.0405
+
+   actual: 0.0000
+predicted: 0.0405
+
+   actual: 0.0000
+predicted: 0.0405
+
+   actual: 0.0000
+predicted: 0.0404
+
+   actual: 0.0000
+predicted: 0.0404
+
+   actual: 0.0000
+predicted: 0.0406
+
+   actual: 0.0000
+predicted: 0.0404
+
+   actual: 0.0000
+predicted: 0.0405
+
+   actual: 0.0000
+predicted: 0.0406
+
+Avg. error: 0.0405
